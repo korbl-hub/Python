@@ -6,11 +6,11 @@ def roll_dice(name, current_score, is_turn):
     dice = random.randint(1, 6)
     if dice == 1:
         current_score = 0
-        print(f"{name} rolled a 1. Current score is 0.")
+        print(f"{name} rolled a 1. Current Score is 0.")
         is_turn = False
     else:
         current_score += dice
-        print(f"{name} rolled a {dice}. Current score is: {current_score}.")
+        print(f"{name} rolled a {dice}. Current Score is: {current_score}.")
     return current_score, is_turn
                 
 def user_turn():
