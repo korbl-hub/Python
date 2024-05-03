@@ -61,7 +61,7 @@ def check_lose(lives):
     return lives == 0
 
 def show_chars(chars_set):
-    # 傳入 dicts, 顯示已猜的字母和猜錯的字母
+    # 顯示已猜的字母和猜錯的字母
     return " ".join(chars_set)
     
 def main():
